@@ -1,6 +1,6 @@
 # Azure Red Hat OpenShift creation script
 
-This script creates an Azure Red Hat OpenShift cluster. This script assumes your target resource group, virtual network, and subnet all exist.
+This script creates an Azure Red Hat OpenShift cluster. This script assumes your target resource group, virtual network, and subnet all exist. Your execution user must also have access to create and assign roles to service principals in AAD.
 
 # Evironment Variables Required:
 
