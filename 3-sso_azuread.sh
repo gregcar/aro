@@ -5,7 +5,7 @@ set -o allexport
 [[ -f .env ]] && source .env
 set +o allexport
 
-oauthCallbackURL=https://oauth-openshift.apps.$CLUSTERDOMAIN/oauth2callback/AAD
+oauthCallbackURL=https://oauth-openshift.apps.$CUSTOMCLUSTERDOMAIN/oauth2callback/AAD
 
 app_id=$(az ad app create \
   --query appId -o tsv \
