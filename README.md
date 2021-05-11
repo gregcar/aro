@@ -27,7 +27,7 @@ WORKERNODECOUNT=                # Worker node count
 WORKERNODEDISKSIZE=             # Worker node disk size
 ```
 
-The above variables are expected to be in an .env file for script execution,
+The above variables are expected to be in an .env file for script execution.
 
 # OpenShift CLI for MacOS Installation:
 
@@ -39,3 +39,6 @@ mkdir openshift
 tar -zxvf openshift-client-mac.tar.gz -C openshift
 echo 'export PATH=$PATH:~/openshift' >> ~/.bashrc && source ~/.bashrc
 ```
+
+# TODO:
+ * Move permissions assigned to use Microsoft Graph OpenId Connect Scopes instead of Azure AD Graph.
